@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -A --quoting-style=shell-always | sed -e 's/$/,/' -e 's/,$/\n/' | sort -k1.2,1 -k1.1,1
+ls -amvp
